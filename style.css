@@ -1,0 +1,30 @@
+h1{color:brown;
+border:solid}
+    .header{
+     background-color: aqua;
+     display: flex;
+     justify-content: space-between;
+    } 
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(220, 0, 0);
+    height: 30vh;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(12, 213, 12);
+}
+.desc{
+background-color: chocolate;
+}
+.full{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: coral;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
