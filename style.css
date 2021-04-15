@@ -1,30 +1,86 @@
-h1{color:brown;
-border:solid}
-    .header{
-     background-color: aqua;
-     display: flex;
-     justify-content: space-between;
-    } 
+h1 {
+    color: white;
+    border: solid;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header *{
+
+margin-left:30px;
+padding: 10px;
+}
+a:link{
+    color: rgb(21, 192, 192);
+}
+a:visited{
+    color: white;
+}
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: rgb(220, 0, 0);
-    height: 30vh;
 }
+
 .footer{
     display: flex;
-    justify-content: flex-end;
-    background-color: rgb(12, 213, 12);
+    justify-content: space-evenly;
+    
+}
+
+p,h2{
+    text-align: center;
+}
+.menu{
+    margin-right: 10px;
 }
 .desc{
-background-color: chocolate;
+    text-align: center;
+    font-weight: bolder;
+    justify-content: first baseline;
+    color: white;
 }
 .full{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: coral;
-    flex-direction: column;
     width: 100vw;
     height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./Images/download\ \(15\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 0.5;
+}
+.item:hover img{
+    width:300px;
+    height: 300px;
+}
+.a{
+    
 }
